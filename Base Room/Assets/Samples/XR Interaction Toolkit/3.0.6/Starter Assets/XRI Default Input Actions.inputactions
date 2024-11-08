@@ -63,7 +63,7 @@
                     "name": "Eye Gaze Is Tracked",
                     "type": "Button",
                     "id": "ea26ba43-844b-4585-817a-2f124b571813",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -2482,7 +2482,7 @@
                     "name": "Submit",
                     "type": "Button",
                     "id": "eba98c2e-6268-4233-bb88-946287bc753c",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2491,7 +2491,7 @@
                     "name": "Cancel",
                     "type": "Button",
                     "id": "448b396b-0885-4543-ac5a-8b3405da6791",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2537,6 +2537,15 @@
                     "type": "PassThrough",
                     "id": "533aeb95-18b2-4a83-a69d-f6e0be72ff8a",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "88538bb7-3e95-428a-b9b3-b29715d548d1",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -2925,6 +2934,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c2189d73-507e-4a8d-8026-a86ae4cd134d",
+                    "path": "<OculusTouchController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

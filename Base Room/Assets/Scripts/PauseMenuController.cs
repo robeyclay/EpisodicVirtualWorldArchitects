@@ -13,12 +13,13 @@ using UnityEngine.UI;
 public class PauseMenuController : MonoBehaviour
 {
     public GameObject pauseMenuUI;
-    private InputSystem_Actions playerControls;
+    public InputActionAsset playerControls;
     [SerializeField] private bool isPaused;
     [SerializeField] private string inputText;
     private static List<string> inputDataList = new List<string>();
     private string filename;
     [SerializeField] private TMP_InputField inputField;
+    private InputAction pauseAction;
 
     public static PauseMenuController Instance;
 
@@ -31,6 +32,7 @@ public class PauseMenuController : MonoBehaviour
     //[SerializeField] private Button LoadNextButton;
    // [SerializeField] private Button BackToGameButton;
 
+ 
     private void Start()
     {
         filename = Application.dataPath + "/test.csv";
@@ -41,22 +43,22 @@ public class PauseMenuController : MonoBehaviour
 
     private void Awake()
     {
-        playerControls = new InputSystem_Actions();
-        menu = playerControls.UI.Pause;
+        pauseAction = playerControls.FindActionMap("XRI UI").FindAction("Pause");
+        //menu = playerControls.XRI_UI.Pause;
     }
 
     private void OnEnable()
     {
-        playerControls.UI.Pause.performed += Pause;
-        playerControls.Enable();
+        pauseAction.performed += Pause;
+        pauseAction.Enable();
         //playerControls.Player.Look;
         //menu.performed += Pause;
     }
 
     private void OnDisable()
     {
-        playerControls.UI.Pause.performed -= Pause;
-        playerControls.Disable();
+        pauseAction.performed -= Pause;
+        pauseAction.Disable();
     }
 
     void Pause(InputAction.CallbackContext context)
@@ -75,7 +77,7 @@ public class PauseMenuController : MonoBehaviour
 
     void ActivateMenu()
     {
-        playerControls.Player.Look.Disable();
+        //playerControls.Player.Look.Disable();
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0;
         AudioListener.pause = true;
@@ -84,11 +86,10 @@ public class PauseMenuController : MonoBehaviour
 
     public void DeactivateMenu()
     {
-        playerControls.Player.Look.Enable();
+        //playerControls.Player.Look.Enable();
         Cursor.lockState = CursorLockMode.Locked;
         Time.timeScale = 1;
         AudioListener.pause = false;
-
         pauseMenuUI.SetActive(false);
     }
 
@@ -114,6 +115,7 @@ public class PauseMenuController : MonoBehaviour
 
     public void updateInputVariable(string input)
     {
+        Debug.Log("Input Value is: " + inputText);
         inputText = input;
     }
 
