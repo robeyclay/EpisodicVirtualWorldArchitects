@@ -16,6 +16,9 @@ public class PauseMenuController : MonoBehaviour
     public InputActionAsset playerControls;
     [SerializeField] private bool isPaused;
     [SerializeField] private string inputText;
+    [SerializeField] private float currentTime;
+    private static List<float> timeList = new List<float>();
+
     private static List<string> inputDataList = new List<string>();
     private string filename;
     [SerializeField] private TMP_InputField inputField;
@@ -25,18 +28,27 @@ public class PauseMenuController : MonoBehaviour
 
     private InputAction menu;
 
+
     //public event EventHandler OnPauseAction;
 
     //[SerializeField] private GameObject pauseUI;
 
     //[SerializeField] private Button LoadNextButton;
-   // [SerializeField] private Button BackToGameButton;
+    // [SerializeField] private Button BackToGameButton;
 
- 
+    private void Update()
+    {
+        if (!isPaused)
+        {
+            currentTime += Time.unscaledDeltaTime;
+        }
+    }
+
     private void Start()
     {
-        filename = Application.dataPath + "/test.csv";
-        Debug.Log("Filename is: " + filename);
+        currentTime = 0f;
+        filename = Application.dataPath + "/times.csv";
+        //Debug.Log("Filename is: " + filename);
         //Cursor.lockState = CursorLockMode.Locked;
         //Cursor.visible = false;
     }
@@ -64,6 +76,7 @@ public class PauseMenuController : MonoBehaviour
     void Pause(InputAction.CallbackContext context)
     {
         isPaused = !isPaused;
+
         if (isPaused)
         {
             ActivateMenu();
@@ -78,6 +91,9 @@ public class PauseMenuController : MonoBehaviour
     void ActivateMenu()
     {
         //playerControls.Player.Look.Disable();
+        timeList.Add(currentTime);
+        Debug.Log("Current time is" + currentTime);
+
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0;
         AudioListener.pause = true;
@@ -96,12 +112,12 @@ public class PauseMenuController : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
-        inputDataList.Add(inputText);
-        for (int i = 0; i < inputDataList.Count; i++)
-        {
-            Debug.Log("List is: " + inputDataList[i]);
-        }
-        Debug.Log("Current inputText value is: " + inputText);
+        //inputDataList.Add(inputText);
+        //for (int i = 0; i < inputDataList.Count; i++)
+        //{
+        //    Debug.Log("List is: " + inputDataList[i]);
+        //}
+        //Debug.Log("Current inputText value is: " + inputText);
 
         if (System.Enum.TryParse(sceneName, out Loader.Scene targetScene))
         {
@@ -129,20 +145,20 @@ public class PauseMenuController : MonoBehaviour
 
     public void experimentEnded()
     {
-        if (inputDataList.Count == 0)
-        {
-            Debug.Log("There was nothing to write");
-            return;
-        }
+        //if (inputDataList.Count == 0)
+        //{
+        //    Debug.Log("There was nothing to write");
+        //    return;
+        //}
 
         using (TextWriter tw = new StreamWriter(filename, false))
         {
             tw.WriteLine("Codename, Stage1, Stage2, Stage3, Stage4, Stage5, Stage6, Stage7");
             string csvLine = myParticipant.codename;
 
-            foreach (string input in inputDataList)
+            foreach (float time in timeList)
             {
-                csvLine += "," + input;
+                csvLine += "," + time;
             }
             tw.WriteLine(csvLine);
         }
