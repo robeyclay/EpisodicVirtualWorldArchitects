@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScene.unity
     guid: cb23c2cec45e55b4fb4fd0e84481f27c
   - enabled: 1
-    path: Assets/Scenes/SampleScene0.unity
+    path: Assets/Scenes/Color-FinalScene.unity
     guid: 4c91b41d7dfbb3a47a0e2ead26d7a7d9
   - enabled: 1
     path: Assets/Scenes/SampleScene1.unity
