@@ -153,7 +153,7 @@ public class PauseMenuController : MonoBehaviour
 
         using (TextWriter tw = new StreamWriter(filename, false))
         {
-            tw.WriteLine("Codename, Stage1, Stage2, Stage3, Stage4, Stage5, Stage6, Stage7");
+            tw.WriteLine("Codename, Stage1Gray, Stage2Gray, Stage3Gray, Stage4Gray, Stage5Color, Stage6Color, Stage7Color");
             string csvLine = myParticipant.codename;
 
             foreach (float time in timeList)

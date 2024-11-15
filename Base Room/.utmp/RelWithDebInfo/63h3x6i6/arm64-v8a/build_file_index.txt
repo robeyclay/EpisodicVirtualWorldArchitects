@@ -1,0 +1,2 @@
+D:\Unity\6000.0.23f1\Projects\EpisodicVirtualWorldArchitects\Base Room\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+D:\Unity\6000.0.23f1\Projects\EpisodicVirtualWorldArchitects\Base Room\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

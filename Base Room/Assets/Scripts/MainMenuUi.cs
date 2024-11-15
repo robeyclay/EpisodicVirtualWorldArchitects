@@ -12,7 +12,7 @@ public class Script: MonoBehaviour
     {
         StartButton.onClick.AddListener(() =>
         {
-            Loader.Load(Loader.Scene.SampleScene0);
+            Loader.Load(Loader.Scene.Gray_EmptyScene);
         });
 
 

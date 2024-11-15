@@ -12,14 +12,44 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScene.unity
     guid: cb23c2cec45e55b4fb4fd0e84481f27c
   - enabled: 1
-    path: Assets/Scenes/Color-FinalScene.unity
+    path: Assets/Scenes/Color_FinalScene.unity
     guid: 4c91b41d7dfbb3a47a0e2ead26d7a7d9
-  - enabled: 1
-    path: Assets/Scenes/SampleScene1.unity
-    guid: a416ca38ec52e004c84fe24534271933
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: 374de09ba60f2c245911eb719283b153
+  - enabled: 1
+    path: Assets/Scenes/Color_EmptyScene.unity
+    guid: 559aea06b568c8d4997e2027fc8982a2
+  - enabled: 1
+    path: Assets/Scenes/Color_hightolow_step1.unity
+    guid: 0f5b5f3fca1803e41abaccba3c4297b1
+  - enabled: 1
+    path: Assets/Scenes/Color_lowtohigh_step1.unity
+    guid: bba78252a9c249b458077ff0fe4df130
+  - enabled: 1
+    path: Assets/Scenes/Color_lowtohigh_step2.unity
+    guid: 53e9562d31468bf4cb443cfedadec42e
+  - enabled: 1
+    path: Assets/Scenes/Gray_EmptyScene.unity
+    guid: 6779c5f0b53b29645886f535219d356e
+  - enabled: 1
+    path: Assets/Scenes/Gray_FinalScene.unity
+    guid: ec9717309f0fc6c488a61fe5555af753
+  - enabled: 1
+    path: Assets/Scenes/Gray_hightolow_step1.unity
+    guid: 8ada9c92b21b929479fdab89346f3a32
+  - enabled: 1
+    path: Assets/Scenes/Gray_hightolow_step2.unity
+    guid: e469e615519326b40a9d2c95dff4153f
+  - enabled: 1
+    path: Assets/Scenes/Gray_lowtohigh_step1.unity
+    guid: 4daa05bf268fac24f998f510cb6b8b2f
+  - enabled: 1
+    path: Assets/Scenes/Gray_lowtohigh_step2.unity
+    guid: a3064c314f4a4a543acabec531f01ebf
+  - enabled: 1
+    path: Assets/Scenes/Color_lowtohigh_step1.unity
+    guid: d64efeef703b1da4ab62c5522df03940
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3daaad32949498d49840922edf8cd87e, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
