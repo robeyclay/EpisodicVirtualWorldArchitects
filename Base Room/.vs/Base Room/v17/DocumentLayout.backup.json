@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "D:\\Unity\\6000.0.23f1\\Projects\\EpisodicVirtualWorldArchitects\\Base Room\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|D:\\Unity\\6000.0.23f1\\Projects\\EpisodicVirtualWorldArchitects\\Base Room\\assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|d:\\unity\\6000.0.23f1\\projects\\episodicvirtualworldarchitects\\base room\\assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|d:\\unity\\6000.0.23f1\\projects\\episodicvirtualworldarchitects\\base room\\assets\\scripts\\pausemenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|D:\\Unity\\6000.0.23f1\\Projects\\EpisodicVirtualWorldArchitects\\Base Room\\assets\\scripts\\pausemenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|d:\\unity\\6000.0.23f1\\projects\\episodicvirtualworldarchitects\\base room\\assets\\scripts\\applygraymaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|D:\\Unity\\6000.0.23f1\\Projects\\EpisodicVirtualWorldArchitects\\Base Room\\assets\\scripts\\applygraymaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FAA8321-C5C5-D17E-87EA-AF86569E6265}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\applygraymaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ApplyGrayMaterial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T21:07:31.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T21:07:31.699Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PauseMenuController.cs",
               "ViewState": "AgIAAJEAAAAAAAAAAAAmwJ8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T04:52:34.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T04:52:34.959Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Loader.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T05:10:26.135Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T05:10:26.135Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LoaderCallback.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T05:10:11.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T05:10:11.582Z"
             }
           ]
         }

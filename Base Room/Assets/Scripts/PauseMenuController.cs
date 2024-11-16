@@ -91,8 +91,6 @@ public class PauseMenuController : MonoBehaviour
     void ActivateMenu()
     {
         //playerControls.Player.Look.Disable();
-        timeList.Add(currentTime);
-        Debug.Log("Current time is" + currentTime);
 
         Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0;
@@ -118,6 +116,8 @@ public class PauseMenuController : MonoBehaviour
         //    Debug.Log("List is: " + inputDataList[i]);
         //}
         //Debug.Log("Current inputText value is: " + inputText);
+        timeList.Add(currentTime);
+        Debug.Log("Current time is" + currentTime);
 
         if (System.Enum.TryParse(sceneName, out Loader.Scene targetScene))
         {
