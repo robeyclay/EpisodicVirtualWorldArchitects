@@ -367,6 +367,18 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: c7f764ed7d3fd734ca6b1590dc043a58, type: 2}
+    - target: {fileID: 2991339254653661806, guid: 395729d3a6cb2aa42b8d3969e2c47ad8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2991339254653661806, guid: 395729d3a6cb2aa42b8d3969e2c47ad8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 340
+      objectReference: {fileID: 0}
+    - target: {fileID: 3032088048683596098, guid: 395729d3a6cb2aa42b8d3969e2c47ad8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3362380184987867435, guid: 395729d3a6cb2aa42b8d3969e2c47ad8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -447,6 +459,16 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: c7f764ed7d3fd734ca6b1590dc043a58, type: 2}
+    - target: {fileID: 7693931083519805946, guid: 395729d3a6cb2aa42b8d3969e2c47ad8, type: 3}
+      propertyPath: m_text
+      value: "Please tell the instructors what real world environment you think this
+        is. Additionally, tell instructors the level of presence you felt in that
+        environment on a scale of 1 - 7, where 1 is \"No feeling of immersion\",
+        and 7 is \"Immersion levels on par to reality\"\r\n\r\nWait for instructors
+        to prompt you to continue before pressing any button on the screen. \r\n\r\nOnce
+        prompted, press the \"Submit\" button to move to the next scene, when you
+        are ready."
+      objectReference: {fileID: 0}
     - target: {fileID: 7726285480618731208, guid: 395729d3a6cb2aa42b8d3969e2c47ad8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 

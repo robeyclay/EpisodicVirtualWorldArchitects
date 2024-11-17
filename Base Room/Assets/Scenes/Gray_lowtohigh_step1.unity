@@ -17734,8 +17734,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.3, y: 254}
-  m_SizeDelta: {x: 500, y: 100}
+  m_AnchoredPosition: {x: 0.3, y: 340}
+  m_SizeDelta: {x: 1300, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &437802005
 MonoBehaviour:
@@ -17772,8 +17772,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tell us where you think you are! \n\nWhen we are ready, we will tell you
-    to click the button the proceed to the next step of the experiment "
+  m_text: "Please tell the instructors what real world environment you think this
+    is. Additionally, tell instructors the level of presence you felt in that environment
+    on a scale of 1 - 7, where 1 is \"No feeling of immersion\", and 7 is \"Immersion
+    levels on par to reality\"\r\n\r\nWait for instructors to prompt you to continue
+    before pressing any button on the screen. \r\n\r\nOnce prompted, press the \"Submit\"
+    button to move to the next scene, when you are ready."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
