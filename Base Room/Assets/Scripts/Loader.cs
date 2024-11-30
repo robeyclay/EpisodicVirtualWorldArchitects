@@ -7,11 +7,21 @@ public static class Loader
 
     public enum Scene
     {
-        MainMenu,
-        SampleScene0,
+        Color_EmptyScene,
+        Color_FinalScene,
+        Color_hightolow_step1,
+        Color_hightolow_step2,
+        Color_lowtohigh_step1,
+        Color_lowtohigh_step2,
+        EndScene,
+        Gray_EmptyScene,
+        Gray_FinalScene,
+        Gray_hightolow_step1,
+        Gray_hightolow_step2,
+        Gray_lowtohigh_step1,
+        Gray_lowtohigh_step2,
         LoadingScene,
-        SampleScene1,
-        EndScene
+        MainMenu
     }
 
     public static void Load(Scene targetScene)
