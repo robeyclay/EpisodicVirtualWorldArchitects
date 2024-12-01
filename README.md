@@ -1,3 +1,12 @@
 ### The experiment software 
-- The software can be run within Unity 6000.0.23f1 by connecting the headset to the computer via the Meta Quest Link and be ran by opening Unity and making sure
-- https://www.overleaf.com/3437671951ssqxcfvzvzjc#1796aa
+- The software can be run within Unity 6000.0.23f1 by connecting the headset to the computer via the Meta Quest Link and opening the 'builds' folder within the EpisodicVirtualWorldArchitects.zip file
+- The build versions of this experiment are made for Windows operating systems only
+- Within the builds folder, there will be 2 additional folders named 'highToLow" and "lowToHigh"
+- Both of these folders contain separate build versions titled "Base Room.exe"
+- By running the Base Room.exe, with the headset connected to the PC via Quest Link, the given experiment will begin
+- Once the experiment starts up, each scene is ran through by pressing the "Start" button on the left oculus controller, where a menu will pop up and prompt the user to verbally give the instructors a location guess
+- After this, the participant may preceed to the next scene by pressing right trigger on the "Submit" button
+- The experiment will repeat these steps until the participant is met with an end scene that says, "Thank you for participating please press this button"
+- After the user presses the button, the software will automatically close itself
+- Within the 'Base Room_Data' folder, there will be a file named, "times.csv", which will contain all of the data which represents the participants speed that they made a guess
+- https://www.overleaf.com/read/zkmynnhqtppp#b37bfc
