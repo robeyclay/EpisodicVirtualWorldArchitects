@@ -1,4 +1,4 @@
-# Unity Classroom Research
+# Unity Classroom Research Project
 
 ## Experiment Software
 
