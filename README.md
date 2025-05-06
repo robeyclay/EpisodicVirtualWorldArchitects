@@ -1,4 +1,7 @@
-### The experiment software 
+# Unity Classroom Research
+
+## Experiment Software
+
 - The software can be run within Unity 6000.0.23f1 by connecting the headset to the computer via the Meta Quest Link and opening the 'builds' folder within the EpisodicVirtualWorldArchitects.zip file
 - The build versions of this experiment are made for Windows operating systems only
 - Within the builds folder, there will be 2 additional folders named 'highToLow" and "lowToHigh"
@@ -9,4 +12,4 @@
 - The experiment will repeat these steps until the participant is met with an end scene that says, "Thank you for participating please press this button"
 - After the user presses the button, the software will automatically close itself
 - Within the 'Base Room_Data' folder, there will be a file named, "times.csv", which will contain all of the data which represents the participants speed that they made a guess
-- https://www.overleaf.com/read/zkmynnhqtppp#b37bfc
+- [Overleaf Paper Link](https://www.overleaf.com/read/zkmynnhqtppp#b37bfc)
